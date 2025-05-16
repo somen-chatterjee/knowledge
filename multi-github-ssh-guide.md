@@ -109,3 +109,17 @@ Hi somen-chatterjee! You've successfully authenticated, but GitHub does not prov
 ---
 
 📁 Save this file as `multi-github-ssh-guide.md` in your project folder or DevDocs.
+
+
+Host github.com (primary)
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
+
+Host github-second (secondry)
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_second
+  IdentitiesOnly yes
+
+
