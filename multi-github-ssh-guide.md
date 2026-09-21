@@ -105,6 +105,7 @@ Hi somen-chatterjee! You've successfully authenticated, but GitHub does not prov
 - `github-second` is just a nickname (alias)
 - You must use the alias in your Git URLs
 - No need to redo the key steps unless you reset the system
+- Need to remember passphrase while you created during this process.
 
 ---
 
